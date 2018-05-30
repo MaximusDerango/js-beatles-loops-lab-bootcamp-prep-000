@@ -11,4 +11,5 @@ var johnLennonFacts = function(facts) {
   while (i < facts.length) {
     facts[i] = `${facts[i]}!!!`;
   }
+  return facts;
 }
