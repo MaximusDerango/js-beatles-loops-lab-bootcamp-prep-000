@@ -4,7 +4,7 @@ var theBeatlesPlay = function(musicians, instruments) {
     artist_instruments.push(`${musicians[i]} plays ${instruments[i]}`);
   }
   return artist_instruments;
-}
+};
 
 var johnLennonFacts = function(facts) {
   var extreme_facts = [];
@@ -14,4 +14,8 @@ var johnLennonFacts = function(facts) {
     i++;
   }
   return extreme_facts;
-}
+};
+
+var iLoveTheBeatles = function(n) {
+  
+};
