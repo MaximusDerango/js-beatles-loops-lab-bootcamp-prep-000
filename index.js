@@ -5,3 +5,10 @@ var theBeatlesPlay = function(musicians, instruments) {
   }
   return artist_instruments;
 }
+
+var johnLennonFacts = function(facts) {
+  let i = 0;
+  while (i < facts.length) {
+    facts[i] = `${facts[i]}!!!`;
+  }
+}
